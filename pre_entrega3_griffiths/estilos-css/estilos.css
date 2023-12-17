@@ -1,0 +1,209 @@
+/*Genarales*/
+body {
+  background-color: Darkcyan;
+}
+
+/*header*/
+#menu {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  width: 90%;
+  padding: 20px;
+  float: left;
+}
+
+main a img {
+  width: 200%;
+  height: auto;
+}
+
+li {
+  margin-right: 4px;
+  list-style: none;
+  color: #fff;
+}
+
+.item1 {
+  margin-left: 4px;
+}
+
+li {
+  margin-left: 7px;
+}
+
+.item2 {
+  margin-left: 4px;
+}
+
+li {
+  margin-left: 7px;
+}
+
+.sublista {
+  display: none;
+}
+
+li {
+  margin-right: 4px;
+  list-style: none;
+}
+
+.item1 {
+  margin-left: 4px;
+}
+
+li {
+  margin-left: 7px;
+}
+
+.item2 {
+  margin-left: 4px;
+}
+
+li {
+  margin-left: 7px;
+}
+
+.sublista {
+  display: none;
+  color: #fff;
+}
+
+.sublista {
+  display: none;
+  color: #fff;
+}
+
+.sublista1 {
+  display: none;
+  color: #fff;
+}
+
+.sublista2 {
+  display: none;
+  color: #fff;
+}
+
+#g:hover .sublista {
+  display: block;
+  position: fixed;
+}
+
+.item1:hover .sublista1 {
+  display: block;
+  position: fixed;
+}
+
+.item2:hover .sublista2 {
+  display: block;
+  position: fixed;
+}
+
+.sublista a {
+  color: white;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.sublista1 a {
+  color: white;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.sublista2 {
+  /*Main*/
+}
+.sublista2 a {
+  color: white;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+h1 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgba(0, 0, 0, 0.525);
+  border: 4px solid white;
+  margin-top: 4px;
+  font-size: x-large;
+}
+
+.imagen1 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin-right: 5px;
+  overflow: hidden;
+  margin-left: 35%;
+}
+
+#img1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#img1:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+#img1:not(:hover) {
+  opacity: 0.3;
+  transform: scale(1.05);
+  transition: 2s;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  border: 4px solid white;
+  height: 120px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  bottom: -900px;
+}
+
+footer:hover {
+  font-size: 40px;
+  color: rgb(228, 184, 8);
+  transition: 2000ms;
+  text-shadow: 60px 60px 60px rgba(235, 76, 161, 0.836);
+}
+
+/*Pagina Galeria*/
+#body {
+  background-color: darkcyan;
+}
+
+/*Pagina trayectoria*/
+h3 {
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+}
+
+h5 {
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+}
+
+/*# sourceMappingURL=estilos.css.map */
